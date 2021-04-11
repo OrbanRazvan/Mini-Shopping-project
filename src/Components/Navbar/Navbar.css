@@ -1,0 +1,123 @@
+.Navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #283747;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar__logo {
+  margin-left: 60px;
+  margin-right: 35px;
+}
+
+.Navbar__logo>h1 {
+  color: #fff;
+  transform: skew(-15deg);
+}
+
+.Navbar__component {
+  width: auto;
+}
+
+.Navbar__component__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 40px;
+}
+
+.Navbar__signIn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.Navbar__sign {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.Navbar__cart {
+  display: flex;
+  margin-right: 50px;
+  margin-left: 35px;
+  color: #fff;
+}
+
+.Navbar__shoppingLink {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__shoppingCart {
+  cursor: pointer;
+  color: #fff;
+}
+
+.Navbar__cart>span {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+
+@media screen and (max-width: 920px) {
+  .Navbar__component__link {
+    font-size: 1rem;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar__logo {
+    font-size: .6rem;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .Navbar__component__link {
+    font-size: .8rem;
+    margin: 0 3px;
+  }
+  .Navbar__cart {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .Navbar__cart>span {
+    top: 5px;
+    right: 20px;
+  }
+  #Navbar__name {
+    font-size: .6rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .Navbar__logo {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .Navbar__logo>h1 {
+    margin-left: -999px;
+  }
+  .Navbar__component {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .Navbar__component__link {
+    font-size: .7rem;
+    margin-left: 3px;
+  }
+  .Navbar__cart {
+    align-items: center;
+    margin-right: 20px;
+  }
+  .Navbar__signIn {
+    display: flex;
+    margin: 0 20px;
+  }
+  .Navbar__sign {
+    font-size: .6rem;
+  }
+}

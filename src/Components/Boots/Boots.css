@@ -1,0 +1,15 @@
+.Boots {
+  width: 95%;
+  height: auto;
+  background-color: #DADED4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Boots__rows__items {
+  padding: 80px 100px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}

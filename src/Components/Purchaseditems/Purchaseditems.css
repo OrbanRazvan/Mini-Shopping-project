@@ -1,0 +1,119 @@
+.container__items {
+  width: 100%;
+}
+
+.Purchased__items {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 25px;
+}
+
+.Purchased__img {
+  display: flex;
+}
+
+.Purchased__items>img {
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.Right__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Purchased__title {
+  color: #283747;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.Purchased__category {
+  color: #283747;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.Purchased__price {
+  margin: 10px 0;
+}
+
+.Purchased__price>strong {
+  margin-right: 2px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.Purchased__price>small {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.Purchased__button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #ed3330;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+.Purchased__button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.2s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+  .Purchased__items {
+    margin-top: 30px;
+  }
+  .Purchased__items>img {
+    height: 100px;
+  }
+  .Purchased__title {
+    font-size: 1rem;
+    margin-bottom: 2px;
+    font-weight: 700;
+  }
+  .Purchased__category {
+    color: #283747;
+    font-size: .8rem;
+    margin: 2px 0;
+  }
+  .Purchased__price {
+    margin: 2px 0;
+  }
+  .Purchased__price>strong {
+    margin-right: 2px;
+    font-size: .8rem;
+    font-weight: 500;
+  }
+  .Purchased__price>small {
+    font-size: .9rem;
+    font-weight: 700;
+  }
+  .Purchased__button {
+    padding: 5px;
+    font-size: .6rem;
+  }
+}
